@@ -16,9 +16,9 @@ pipeline {
             echo 'Build succeeded.'
             mail(
                 to: 'dlagudwns30@naver.com',        // 받는 사람
-                subject: "✅ [SUCCESS] ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                subject: " [SUCCESS] ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                 body: """
-                    빌드가 성공적으로 완료되었습니다!
+                빌드 대성공!!
 
                     Job     : ${env.JOB_NAME}
                     Build   : #${env.BUILD_NUMBER}
