@@ -8,7 +8,7 @@ public class Calculator {
 
     public Calculator() {
         operations.put("+", new Add());
-        operations.put("-", new Minus());
+        operations.put("-", new Sub());
         operations.put("/", new Div());
         operations.put("*", new Multiply());
     }
