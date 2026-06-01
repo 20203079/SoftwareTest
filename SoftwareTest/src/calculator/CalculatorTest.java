@@ -10,7 +10,8 @@ import org.junit.jupiter.api.TestMethodOrder;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class CalculatorTest {
     private static Calculator calc;
-
+   // 주석추
+    
     @BeforeAll
     static void setUpBeforeClass() {
         calc = new Calculator();
